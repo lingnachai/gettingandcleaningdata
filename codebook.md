@@ -42,7 +42,7 @@ The set of variables that were estimated from these signals are:
 * • angle(): Angle between some vectors.
 
 
-## After running the "GettingCleaningProj_analysis.R" program
+## After running the "run_analysis.R" program
 The original data set are re-organized to a tidy data set "tidydata.txt". Below are the column details
 *  [1] "Subject"                                                      
 *  [2] "Activity"                                                     
@@ -128,7 +128,7 @@ The original data set are re-organized to a tidy data set "tidydata.txt". Below 
 * [82] "FrequencyDomain.BodyBodyAngularAccelerationMagnitude-meanFreq"
 
 
-## The script GettingCleaningProj_analysis.R , does the following:
+## The script run_analysis.R , does the following:
 * 1.Merges the training and the test sets to create one data set.
 * 2.Extracts only the measurements on the mean and standard deviation for each measurement. 
 * 3.Uses descriptive activity names to name the activities in the data set
