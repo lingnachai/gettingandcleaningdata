@@ -3,8 +3,8 @@
 * http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 Here are the data for the project:
 * https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-The dataset includes the following files:
-=========================================
+
+## The dataset includes the following files:
 
 * - 'README.txt'
 * - 'features_info.txt': Shows information about the variables used on the feature vector.
@@ -23,26 +23,27 @@ The following files are available for the train and test data. Their description
 The signals were sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window at 50 Hz). From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
 
 The set of variables that were estimated from these signals are: 
-* • mean(): Mean value
-* • std(): Standard deviation
-* • mad(): Median absolute deviation 
-* • max(): Largest value in array
-* • min(): Smallest value in array
-* • sma(): Signal magnitude area
-* • energy(): Energy measure. Sum of the squares divided by the number of values. 
-* • iqr(): Interquartile range 
-* • entropy(): Signal entropy
-* • arCoeff(): Autoregression coefficients with Burg order equal to 4
-* • correlation(): Correlation coefficient between two signals
-* • maxInds(): Index of the frequency component with largest magnitude
-* • meanFreq(): Weighted average of the frequency components to obtain a mean frequency
-* • skewness(): Skewness of the frequency domain signal 
-* • kurtosis(): Kurtosis of the frequency domain signal 
-* • bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
-* • angle(): Angle between some vectors.
+* â€¢ mean(): Mean value
+* â€¢ std(): Standard deviation
+* â€¢ mad(): Median absolute deviation 
+* â€¢ max(): Largest value in array
+* â€¢ min(): Smallest value in array
+* â€¢ sma(): Signal magnitude area
+* â€¢ energy(): Energy measure. Sum of the squares divided by the number of values. 
+* â€¢ iqr(): Interquartile range 
+* â€¢ entropy(): Signal entropy
+* â€¢ arCoeff(): Autoregression coefficients with Burg order equal to 4
+* â€¢ correlation(): Correlation coefficient between two signals
+* â€¢ maxInds(): Index of the frequency component with largest magnitude
+* â€¢ meanFreq(): Weighted average of the frequency components to obtain a mean frequency
+* â€¢ skewness(): Skewness of the frequency domain signal 
+* â€¢ kurtosis(): Kurtosis of the frequency domain signal 
+* â€¢ bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
+* â€¢ angle(): Angle between some vectors.
 
 
-After running the "GettingCleaningProj_analysis.R" program the original data set are re-organized to a tidy data set "tidydata.txt". Below are the column details
+## After running the "GettingCleaningProj_analysis.R" program
+The original data set are re-organized to a tidy data set "tidydata.txt". Below are the column details
 *  [1] "Subject"                                                      
 *  [2] "Activity"                                                     
 *  [3] "ActivityId"                                                   
